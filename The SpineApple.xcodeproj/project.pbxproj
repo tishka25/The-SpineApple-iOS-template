@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41244DE4720C178D21E69C04 /* Pods_The_SpineApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F715CCB9C46A83EC71DD93 /* Pods_The_SpineApp.framework */; };
+		4147C75D21FC9E6800E92B14 /* LocalServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147C75C21FC9E6800E92B14 /* LocalServer.swift */; };
+		417E511221FC7C2E00AF9145 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417E511121FC7C2E00AF9145 /* ThirdViewController.swift */; };
 		41BE648821FC6E7C00E35EC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE648721FC6E7C00E35EC0 /* AppDelegate.swift */; };
-		41BE648A21FC6E7C00E35EC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE648921FC6E7C00E35EC0 /* ViewController.swift */; };
+		41BE648A21FC6E7C00E35EC0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE648921FC6E7C00E35EC0 /* MainViewController.swift */; };
 		41BE648D21FC6E7C00E35EC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BE648B21FC6E7C00E35EC0 /* Main.storyboard */; };
 		41BE648F21FC6E7F00E35EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BE648E21FC6E7F00E35EC0 /* Assets.xcassets */; };
 		41BE649221FC6E7F00E35EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BE649021FC6E7F00E35EC0 /* LaunchScreen.storyboard */; };
+		41BE649A21FC6FC900E35EC0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE649921FC6FC900E35EC0 /* SecondViewController.swift */; };
+		41BE64A021FC764500E35EC0 /* backgroundImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41BE649E21FC764500E35EC0 /* backgroundImage.jpg */; };
+		41BE64A121FC764500E35EC0 /* errorSplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41BE649F21FC764500E35EC0 /* errorSplash.jpg */; };
+		41BE64A321FC76FE00E35EC0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE64A221FC76FE00E35EC0 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		179DD4DAC62C89E530AB80FF /* Pods-The SpineApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The SpineApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The SpineApp/Pods-The SpineApp.debug.xcconfig"; sourceTree = "<group>"; };
+		24C40FAF3685DC35D20D012F /* Pods-The SpineApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The SpineApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-The SpineApp/Pods-The SpineApp.release.xcconfig"; sourceTree = "<group>"; };
+		4147C75C21FC9E6800E92B14 /* LocalServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalServer.swift; sourceTree = "<group>"; };
+		417E511121FC7C2E00AF9145 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		41BE648421FC6E7C00E35EC0 /* The SpineApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The SpineApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BE648721FC6E7C00E35EC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41BE648921FC6E7C00E35EC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41BE648921FC6E7C00E35EC0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		41BE648C21FC6E7C00E35EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41BE648E21FC6E7F00E35EC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41BE649121FC6E7F00E35EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41BE649321FC6E7F00E35EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BE649921FC6FC900E35EC0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		41BE649E21FC764500E35EC0 /* backgroundImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundImage.jpg; sourceTree = "<group>"; };
+		41BE649F21FC764500E35EC0 /* errorSplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = errorSplash.jpg; sourceTree = "<group>"; };
+		41BE64A221FC76FE00E35EC0 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B8F715CCB9C46A83EC71DD93 /* Pods_The_SpineApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_SpineApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41244DE4720C178D21E69C04 /* Pods_The_SpineApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				41BE648621FC6E7C00E35EC0 /* The SpineApp */,
 				41BE648521FC6E7C00E35EC0 /* Products */,
+				5AD2B84A7863B951E50E2797 /* Pods */,
+				9F12CDA6BA4F4F2CDDA54449 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +74,44 @@
 			isa = PBXGroup;
 			children = (
 				41BE648721FC6E7C00E35EC0 /* AppDelegate.swift */,
-				41BE648921FC6E7C00E35EC0 /* ViewController.swift */,
+				41BE648921FC6E7C00E35EC0 /* MainViewController.swift */,
+				41BE649921FC6FC900E35EC0 /* SecondViewController.swift */,
+				417E511121FC7C2E00AF9145 /* ThirdViewController.swift */,
+				41BE64A221FC76FE00E35EC0 /* NetworkManager.swift */,
+				4147C75C21FC9E6800E92B14 /* LocalServer.swift */,
 				41BE648B21FC6E7C00E35EC0 /* Main.storyboard */,
 				41BE648E21FC6E7F00E35EC0 /* Assets.xcassets */,
 				41BE649021FC6E7F00E35EC0 /* LaunchScreen.storyboard */,
 				41BE649321FC6E7F00E35EC0 /* Info.plist */,
+				41BE649D21FC761E00E35EC0 /* Resources */,
 			);
 			path = "The SpineApp";
+			sourceTree = "<group>";
+		};
+		41BE649D21FC761E00E35EC0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				41BE649E21FC764500E35EC0 /* backgroundImage.jpg */,
+				41BE649F21FC764500E35EC0 /* errorSplash.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5AD2B84A7863B951E50E2797 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				179DD4DAC62C89E530AB80FF /* Pods-The SpineApp.debug.xcconfig */,
+				24C40FAF3685DC35D20D012F /* Pods-The SpineApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F12CDA6BA4F4F2CDDA54449 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8F715CCB9C46A83EC71DD93 /* Pods_The_SpineApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +121,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41BE649621FC6E7F00E35EC0 /* Build configuration list for PBXNativeTarget "The SpineApp" */;
 			buildPhases = (
+				D729B0F6E44FD0A5CADA3BB8 /* [CP] Check Pods Manifest.lock */,
 				41BE648021FC6E7C00E35EC0 /* Sources */,
 				41BE648121FC6E7C00E35EC0 /* Frameworks */,
 				41BE648221FC6E7C00E35EC0 /* Resources */,
+				165339437D36E76172D86F9D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +175,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				41BE649221FC6E7F00E35EC0 /* LaunchScreen.storyboard in Resources */,
+				41BE64A121FC764500E35EC0 /* errorSplash.jpg in Resources */,
+				41BE64A021FC764500E35EC0 /* backgroundImage.jpg in Resources */,
 				41BE648F21FC6E7F00E35EC0 /* Assets.xcassets in Resources */,
 				41BE648D21FC6E7C00E35EC0 /* Main.storyboard in Resources */,
 			);
@@ -130,12 +184,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		165339437D36E76172D86F9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-The SpineApp/Pods-The SpineApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Swifter/Swifter.framework",
+				"${BUILT_PRODUCTS_DIR}/Zip/Zip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swifter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The SpineApp/Pods-The SpineApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D729B0F6E44FD0A5CADA3BB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The SpineApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		41BE648021FC6E7C00E35EC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41BE648A21FC6E7C00E35EC0 /* ViewController.swift in Sources */,
+				41BE649A21FC6FC900E35EC0 /* SecondViewController.swift in Sources */,
+				4147C75D21FC9E6800E92B14 /* LocalServer.swift in Sources */,
+				41BE648A21FC6E7C00E35EC0 /* MainViewController.swift in Sources */,
+				417E511221FC7C2E00AF9145 /* ThirdViewController.swift in Sources */,
+				41BE64A321FC76FE00E35EC0 /* NetworkManager.swift in Sources */,
 				41BE648821FC6E7C00E35EC0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,11 +381,13 @@
 		};
 		41BE649721FC6E7F00E35EC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179DD4DAC62C89E530AB80FF /* Pods-The SpineApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SS46K296C;
 				INFOPLIST_FILE = "The SpineApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +401,13 @@
 		};
 		41BE649821FC6E7F00E35EC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C40FAF3685DC35D20D012F /* Pods-The SpineApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SS46K296C;
 				INFOPLIST_FILE = "The SpineApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
