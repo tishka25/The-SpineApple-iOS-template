@@ -26,7 +26,7 @@
 		24C40FAF3685DC35D20D012F /* Pods-The SpineApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The SpineApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-The SpineApp/Pods-The SpineApp.release.xcconfig"; sourceTree = "<group>"; };
 		4147C75C21FC9E6800E92B14 /* LocalServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalServer.swift; sourceTree = "<group>"; };
 		417E511121FC7C2E00AF9145 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
-		41BE648421FC6E7C00E35EC0 /* The SpineApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The SpineApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41BE648421FC6E7C00E35EC0 /* The SpineApple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The SpineApple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BE648721FC6E7C00E35EC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41BE648921FC6E7C00E35EC0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		41BE648C21FC6E7C00E35EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		41BE647B21FC6E7C00E35EC0 = {
 			isa = PBXGroup;
 			children = (
-				41BE648621FC6E7C00E35EC0 /* The SpineApp */,
+				41BE648621FC6E7C00E35EC0 /* The SpineApple */,
 				41BE648521FC6E7C00E35EC0 /* Products */,
 				5AD2B84A7863B951E50E2797 /* Pods */,
 				9F12CDA6BA4F4F2CDDA54449 /* Frameworks */,
@@ -65,12 +65,12 @@
 		41BE648521FC6E7C00E35EC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41BE648421FC6E7C00E35EC0 /* The SpineApp.app */,
+				41BE648421FC6E7C00E35EC0 /* The SpineApple.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		41BE648621FC6E7C00E35EC0 /* The SpineApp */ = {
+		41BE648621FC6E7C00E35EC0 /* The SpineApple */ = {
 			isa = PBXGroup;
 			children = (
 				41BE648721FC6E7C00E35EC0 /* AppDelegate.swift */,
@@ -85,7 +85,7 @@
 				41BE649321FC6E7F00E35EC0 /* Info.plist */,
 				41BE649D21FC761E00E35EC0 /* Resources */,
 			);
-			path = "The SpineApp";
+			path = "The SpineApple";
 			sourceTree = "<group>";
 		};
 		41BE649D21FC761E00E35EC0 /* Resources */ = {
@@ -117,9 +117,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		41BE648321FC6E7C00E35EC0 /* The SpineApp */ = {
+		41BE648321FC6E7C00E35EC0 /* The SpineApple */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41BE649621FC6E7F00E35EC0 /* Build configuration list for PBXNativeTarget "The SpineApp" */;
+			buildConfigurationList = 41BE649621FC6E7F00E35EC0 /* Build configuration list for PBXNativeTarget "The SpineApple" */;
 			buildPhases = (
 				D729B0F6E44FD0A5CADA3BB8 /* [CP] Check Pods Manifest.lock */,
 				41BE648021FC6E7C00E35EC0 /* Sources */,
@@ -131,9 +131,9 @@
 			);
 			dependencies = (
 			);
-			name = "The SpineApp";
+			name = "The SpineApple";
 			productName = "The SpineApp";
-			productReference = 41BE648421FC6E7C00E35EC0 /* The SpineApp.app */;
+			productReference = 41BE648421FC6E7C00E35EC0 /* The SpineApple.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -151,7 +151,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 41BE647F21FC6E7C00E35EC0 /* Build configuration list for PBXProject "The SpineApp" */;
+			buildConfigurationList = 41BE647F21FC6E7C00E35EC0 /* Build configuration list for PBXProject "The SpineApple" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -164,7 +164,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				41BE648321FC6E7C00E35EC0 /* The SpineApp */,
+				41BE648321FC6E7C00E35EC0 /* The SpineApple */,
 			);
 		};
 /* End PBXProject section */
@@ -392,7 +392,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.THESPINEAPPLE.The-SpineApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.THESPINEAPPLE.The-SpineApple";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -412,7 +412,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.THESPINEAPPLE.The-SpineApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.THESPINEAPPLE.The-SpineApple";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -422,7 +422,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		41BE647F21FC6E7C00E35EC0 /* Build configuration list for PBXProject "The SpineApp" */ = {
+		41BE647F21FC6E7C00E35EC0 /* Build configuration list for PBXProject "The SpineApple" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41BE649421FC6E7F00E35EC0 /* Debug */,
@@ -431,7 +431,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41BE649621FC6E7F00E35EC0 /* Build configuration list for PBXNativeTarget "The SpineApp" */ = {
+		41BE649621FC6E7F00E35EC0 /* Build configuration list for PBXNativeTarget "The SpineApple" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41BE649721FC6E7F00E35EC0 /* Debug */,
