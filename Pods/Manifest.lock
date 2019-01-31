@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.8.0)
+  - ReachabilitySwift (4.3.0)
+  - Swifter (1.4.5)
+  - Zip (1.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ReachabilitySwift
+  - Swifter (~> 1.4.5)
+  - Zip (~> 1.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - ReachabilitySwift
+    - Swifter
+    - Zip
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  Swifter: eb2bc1d192a1c09169c7fefd01971565fa940521
+  Zip: 8877eede3dda76bcac281225c20e71c25270774c
+
+PODFILE CHECKSUM: 1d59a306e6b60eeb8e59950dc24a7cecc3dcb723
+
+COCOAPODS: 1.5.3
