@@ -22,27 +22,13 @@ class MainViewController: UIViewController , WKNavigationDelegate {
     var server:HttpServer!
 
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
+        self.initialURL = LocalServer.offlineURL
+        self.loadWebView(url: self.initialURL!)
         
-        NetworkManager.isReachable{_ in
-            self.initialURL = LocalServer.onlineURL
-            self.loadWebView(url: self.initialURL!)
-            //Update the current source code that is in memory
-            LocalServer.download(url: "http://thespineapp.com:8080/u_dot_georgiev_at_gmail_dot_com/thespineapple.zip" , onFinished: {() in
-                //Remove the spiner after loading the page
-                UIViewController.removeSpinner(spinner: self.spinner)
-            })
-        }
         
-        NetworkManager.isUnreachable{_ in
-            self.initialURL = LocalServer.offlineURL
-            LocalServer.initServer()
-            LocalServer.startServer()
-            self.loadWebView(url: self.initialURL!)
-        }
     }
 
 
@@ -83,9 +69,9 @@ class MainViewController: UIViewController , WKNavigationDelegate {
     
     func webView(_ webView: WKWebView,
                  didFinish navigation: WKNavigation!) {
-        print("Loaded")
         //Remove the spiner after loading the page
         UIViewController.removeSpinner(spinner: spinner)
+        LocalServer.sendUUID()
         
     }
     
@@ -95,7 +81,7 @@ class MainViewController: UIViewController , WKNavigationDelegate {
         //Check whether the url is in the app (The Spine app)
         if(url != initialURL?.host){
             print("Opening browser: " , url!)
-            let svc = SFSafariViewController(url: URL(string:"https://" + url!)!)
+            let svc = SFSafariViewController(url: webView.url!)
             present(svc, animated: true, completion: nil)
             webView.goBack()
         }
@@ -172,6 +158,9 @@ extension UIViewController {
 extension MainViewController: UIScrollViewDelegate {
     func scrollViewWillBeginZooming(_ scrollView: UIScrollView, with view: UIView?) {
         scrollView.pinchGestureRecognizer?.isEnabled = false
+    }
+    func viewForZooming(in scrollView: UIScrollView) -> UIView? {
+        return nil
     }
 }
 

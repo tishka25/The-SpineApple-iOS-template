@@ -16,6 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        NetworkManager.isReachable{_ in
+            //Update the current source code that is in memory
+            LocalServer.download(url: "http://thespineapp.com:8080/u_dot_georgiev_at_gmail_dot_com/thespineapple.zip" , onFinished: {() in
+            })
+        }
+        
+        LocalServer.initServer()
+        LocalServer.startServer()
+        
         return true
     }
 
@@ -27,10 +36,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(_ application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        LocalServer.stopServer()
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
         // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+        LocalServer.startServer()
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
@@ -39,6 +50,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+        LocalServer.stopServer()
     }
 
 

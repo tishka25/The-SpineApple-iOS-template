@@ -12,7 +12,7 @@
         <!--Item 2-->
         <scene sceneID="n7X-6z-Vfb">
             <objects>
-                <viewController id="LPJ-3n-dHM" customClass="SecondViewController" customModule="The_SpineApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LPJ-3n-dHM" customClass="SecondViewController" customModule="The_SpineApple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7P3-Ua-yBS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,7 +40,7 @@
         <!--Item-->
         <scene sceneID="sr2-ZN-axE">
             <objects>
-                <viewController id="eys-wq-rf0" customClass="ThirdViewController" customModule="The_SpineApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="eys-wq-rf0" customClass="ThirdViewController" customModule="The_SpineApple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DmO-sB-88A">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -69,7 +69,7 @@
         <!--Item 1-->
         <scene sceneID="Lld-fk-oP9">
             <objects>
-                <viewController id="hoD-DC-GXw" customClass="MainViewController" customModule="The_SpineApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hoD-DC-GXw" customClass="MainViewController" customModule="The_SpineApple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8jQ-Yy-NNt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,7 +104,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="fdh-SR-krB">
             <objects>
-                <tabBarController id="LBC-e5-fEJ" sceneMemberID="viewController">
+                <tabBarController id="LBC-e5-fEJ" customClass="TabBarController" customModule="The_SpineApple" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NQM-bJ-Cli">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

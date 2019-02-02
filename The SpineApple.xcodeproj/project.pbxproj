@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		41244DE4720C178D21E69C04 /* Pods_The_SpineApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F715CCB9C46A83EC71DD93 /* Pods_The_SpineApp.framework */; };
 		4147C75D21FC9E6800E92B14 /* LocalServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4147C75C21FC9E6800E92B14 /* LocalServer.swift */; };
+		41544E432205D2DA0094FFB7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41544E422205D2DA0094FFB7 /* TabBarController.swift */; };
+		41544E462205DC760094FFB7 /* EasterEgg in Resources */ = {isa = PBXBuildFile; fileRef = 41544E452205DC760094FFB7 /* EasterEgg */; };
+		41721F622205CA3C009F9E5F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41721F612205CA3B009F9E5F /* Info.plist */; };
 		417E511221FC7C2E00AF9145 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417E511121FC7C2E00AF9145 /* ThirdViewController.swift */; };
 		41BE648821FC6E7C00E35EC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE648721FC6E7C00E35EC0 /* AppDelegate.swift */; };
 		41BE648A21FC6E7C00E35EC0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE648921FC6E7C00E35EC0 /* MainViewController.swift */; };
@@ -19,12 +21,18 @@
 		41BE64A021FC764500E35EC0 /* backgroundImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41BE649E21FC764500E35EC0 /* backgroundImage.jpg */; };
 		41BE64A121FC764500E35EC0 /* errorSplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41BE649F21FC764500E35EC0 /* errorSplash.jpg */; };
 		41BE64A321FC76FE00E35EC0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE64A221FC76FE00E35EC0 /* NetworkManager.swift */; };
+		6ACBB1F464AE38488E372DC3 /* Pods_The_SpineApple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E6CC9473FB89588ED7848E /* Pods_The_SpineApple.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13E6CC9473FB89588ED7848E /* Pods_The_SpineApple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_SpineApple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		179DD4DAC62C89E530AB80FF /* Pods-The SpineApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The SpineApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The SpineApp/Pods-The SpineApp.debug.xcconfig"; sourceTree = "<group>"; };
 		24C40FAF3685DC35D20D012F /* Pods-The SpineApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The SpineApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-The SpineApp/Pods-The SpineApp.release.xcconfig"; sourceTree = "<group>"; };
 		4147C75C21FC9E6800E92B14 /* LocalServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalServer.swift; sourceTree = "<group>"; };
+		41544E422205D2DA0094FFB7 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		41544E452205DC760094FFB7 /* EasterEgg */ = {isa = PBXFileReference; lastKnownFileType = folder; path = EasterEgg; sourceTree = "<group>"; };
+		41544E472205F5310094FFB7 /* The SpineApple-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "The SpineApple-Bridging-Header.h"; sourceTree = "<group>"; };
+		41721F612205CA3B009F9E5F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		417E511121FC7C2E00AF9145 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		41BE648421FC6E7C00E35EC0 /* The SpineApple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The SpineApple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BE648721FC6E7C00E35EC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,11 +40,12 @@
 		41BE648C21FC6E7C00E35EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41BE648E21FC6E7F00E35EC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41BE649121FC6E7F00E35EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		41BE649321FC6E7F00E35EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41BE649921FC6FC900E35EC0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		41BE649E21FC764500E35EC0 /* backgroundImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundImage.jpg; sourceTree = "<group>"; };
 		41BE649F21FC764500E35EC0 /* errorSplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = errorSplash.jpg; sourceTree = "<group>"; };
 		41BE64A221FC76FE00E35EC0 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		78B4DC6D928C6D53557D82E6 /* Pods-The SpineApple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The SpineApple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The SpineApple/Pods-The SpineApple.debug.xcconfig"; sourceTree = "<group>"; };
+		7DD58898F2E295EBD6CF0E27 /* Pods-The SpineApple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The SpineApple.release.xcconfig"; path = "Pods/Target Support Files/Pods-The SpineApple/Pods-The SpineApple.release.xcconfig"; sourceTree = "<group>"; };
 		B8F715CCB9C46A83EC71DD93 /* Pods_The_SpineApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_SpineApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -45,13 +54,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41244DE4720C178D21E69C04 /* Pods_The_SpineApp.framework in Frameworks */,
+				6ACBB1F464AE38488E372DC3 /* Pods_The_SpineApple.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41544E442205D2E20094FFB7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41BE648921FC6E7C00E35EC0 /* MainViewController.swift */,
+				41BE649921FC6FC900E35EC0 /* SecondViewController.swift */,
+				417E511121FC7C2E00AF9145 /* ThirdViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		41BE647B21FC6E7C00E35EC0 = {
 			isa = PBXGroup;
 			children = (
@@ -74,16 +93,16 @@
 			isa = PBXGroup;
 			children = (
 				41BE648721FC6E7C00E35EC0 /* AppDelegate.swift */,
-				41BE648921FC6E7C00E35EC0 /* MainViewController.swift */,
-				41BE649921FC6FC900E35EC0 /* SecondViewController.swift */,
-				417E511121FC7C2E00AF9145 /* ThirdViewController.swift */,
+				41544E422205D2DA0094FFB7 /* TabBarController.swift */,
 				41BE64A221FC76FE00E35EC0 /* NetworkManager.swift */,
 				4147C75C21FC9E6800E92B14 /* LocalServer.swift */,
+				41544E442205D2E20094FFB7 /* Views */,
 				41BE648B21FC6E7C00E35EC0 /* Main.storyboard */,
 				41BE648E21FC6E7F00E35EC0 /* Assets.xcassets */,
 				41BE649021FC6E7F00E35EC0 /* LaunchScreen.storyboard */,
-				41BE649321FC6E7F00E35EC0 /* Info.plist */,
+				41721F612205CA3B009F9E5F /* Info.plist */,
 				41BE649D21FC761E00E35EC0 /* Resources */,
+				41544E472205F5310094FFB7 /* The SpineApple-Bridging-Header.h */,
 			);
 			path = "The SpineApple";
 			sourceTree = "<group>";
@@ -91,6 +110,7 @@
 		41BE649D21FC761E00E35EC0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				41544E452205DC760094FFB7 /* EasterEgg */,
 				41BE649E21FC764500E35EC0 /* backgroundImage.jpg */,
 				41BE649F21FC764500E35EC0 /* errorSplash.jpg */,
 			);
@@ -102,6 +122,8 @@
 			children = (
 				179DD4DAC62C89E530AB80FF /* Pods-The SpineApp.debug.xcconfig */,
 				24C40FAF3685DC35D20D012F /* Pods-The SpineApp.release.xcconfig */,
+				78B4DC6D928C6D53557D82E6 /* Pods-The SpineApple.debug.xcconfig */,
+				7DD58898F2E295EBD6CF0E27 /* Pods-The SpineApple.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -110,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				B8F715CCB9C46A83EC71DD93 /* Pods_The_SpineApp.framework */,
+				13E6CC9473FB89588ED7848E /* Pods_The_SpineApple.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,6 +171,7 @@
 				TargetAttributes = {
 					41BE648321FC6E7C00E35EC0 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -176,6 +200,8 @@
 			files = (
 				41BE649221FC6E7F00E35EC0 /* LaunchScreen.storyboard in Resources */,
 				41BE64A121FC764500E35EC0 /* errorSplash.jpg in Resources */,
+				41544E462205DC760094FFB7 /* EasterEgg in Resources */,
+				41721F622205CA3C009F9E5F /* Info.plist in Resources */,
 				41BE64A021FC764500E35EC0 /* backgroundImage.jpg in Resources */,
 				41BE648F21FC6E7F00E35EC0 /* Assets.xcassets in Resources */,
 				41BE648D21FC6E7C00E35EC0 /* Main.storyboard in Resources */,
@@ -191,7 +217,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-The SpineApp/Pods-The SpineApp-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-The SpineApple/Pods-The SpineApple-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/Swifter/Swifter.framework",
@@ -206,7 +232,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The SpineApp/Pods-The SpineApp-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The SpineApple/Pods-The SpineApple-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D729B0F6E44FD0A5CADA3BB8 /* [CP] Check Pods Manifest.lock */ = {
@@ -220,7 +246,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-The SpineApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-The SpineApple-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -238,6 +264,7 @@
 				4147C75D21FC9E6800E92B14 /* LocalServer.swift in Sources */,
 				41BE648A21FC6E7C00E35EC0 /* MainViewController.swift in Sources */,
 				417E511221FC7C2E00AF9145 /* ThirdViewController.swift in Sources */,
+				41544E432205D2DA0094FFB7 /* TabBarController.swift in Sources */,
 				41BE64A321FC76FE00E35EC0 /* NetworkManager.swift in Sources */,
 				41BE648821FC6E7C00E35EC0 /* AppDelegate.swift in Sources */,
 			);
@@ -381,12 +408,13 @@
 		};
 		41BE649721FC6E7F00E35EC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 179DD4DAC62C89E530AB80FF /* Pods-The SpineApp.debug.xcconfig */;
+			baseConfigurationReference = 78B4DC6D928C6D53557D82E6 /* Pods-The SpineApple.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SS46K296C;
-				INFOPLIST_FILE = "The SpineApp/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/The SpineApple/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -394,6 +422,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.THESPINEAPPLE.The-SpineApple";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "The SpineApple/The SpineApple-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -401,12 +431,13 @@
 		};
 		41BE649821FC6E7F00E35EC0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24C40FAF3685DC35D20D012F /* Pods-The SpineApp.release.xcconfig */;
+			baseConfigurationReference = 7DD58898F2E295EBD6CF0E27 /* Pods-The SpineApple.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SS46K296C;
-				INFOPLIST_FILE = "The SpineApp/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/The SpineApple/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -414,6 +445,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.THESPINEAPPLE.The-SpineApple";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "The SpineApple/The SpineApple-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
