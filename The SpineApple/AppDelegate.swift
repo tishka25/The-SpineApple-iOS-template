@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         NetworkManager.isReachable{_ in
             //Update the current source code that is in memory
-            LocalServer.download(url: "http://thespineapp.com:8080/u_dot_georgiev_at_gmail_dot_com/thespineapple.zip" , onFinished: {() in
+            LocalServer.download(url: "http://mobile.thespineapple.com/localhosted/localapp.zip" , onFinished: {() in
             })
         }
         

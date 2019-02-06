@@ -41,11 +41,31 @@ class TabBarController: UITabBarController , UITabBarControllerDelegate{
     }
     
     
+//    func startEasterEgg(){
+//        let currectViewFrame = self.view.frame
+//        let frame : CGRect = currectViewFrame
+//        let easterEggView : UIView = UIView(frame: frame)
+//
+//        let easterWebView = WKWebView()
+//        easterWebView.scrollView.bounces = false;
+//        easterWebView.frame = currectViewFrame
+//        easterWebView.load(URLRequest(url: Bundle.main.url(forResource: "index", withExtension:"html", subdirectory: "EasterEgg")! as URL) as URLRequest)
+//        easterEggView.addSubview(easterWebView)
+//
+//
+//        self.view.addSubview(easterEggView)
+//    }
+}
+
+extension TabBarController: WKNavigationDelegate {
     func startEasterEgg(){
         let currectViewFrame = self.view.frame
         let frame : CGRect = currectViewFrame
         let easterEggView : UIView = UIView(frame: frame)
+        
         let easterWebView = WKWebView()
+        easterWebView.scrollView.delegate = self as? UIScrollViewDelegate
+        easterWebView.scrollView.bounces = false;
         easterWebView.frame = currectViewFrame
         easterWebView.load(URLRequest(url: Bundle.main.url(forResource: "index", withExtension:"html", subdirectory: "EasterEgg")! as URL) as URLRequest)
         easterEggView.addSubview(easterWebView)

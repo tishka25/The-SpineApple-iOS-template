@@ -36,12 +36,10 @@ class LocalServer{
     }
     
     //Setup the server with the directory that is going to be shared
-    public static func initServer(path:String = LocalServer.getDocumentsDirectory().appendingPathComponent("thespineapple").path){
-        
+    public static func initServer(path:String = LocalServer.getDocumentsDirectory().appendingPathComponent("localapp").path){
+        print("Sharing this dir: " + path)
         server = demoServer(path)
         server["/:path"] = shareFilesFromDirectory(path)
-        
-        
     }
     //Start the server with default port 8080
     public static func startServer(){
