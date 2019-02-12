@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_The_SpineAppVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_The_SpineAppVersionString[];
+FOUNDATION_EXPORT double Pods_The_SpineAppleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_The_SpineAppleVersionString[];
 

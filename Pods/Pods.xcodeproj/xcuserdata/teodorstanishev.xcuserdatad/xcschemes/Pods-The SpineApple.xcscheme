@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3301197AD37FBD46E7A235CA61A93111"
-               BuildableName = "Pods_The_SpineApp.framework"
-               BlueprintName = "Pods-The SpineApp"
+               BlueprintIdentifier = "8B21586E5557CB5B44AB5347AAAF09DD"
+               BuildableName = "Pods_The_SpineApple.framework"
+               BlueprintName = "Pods-The SpineApple"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3301197AD37FBD46E7A235CA61A93111"
-            BuildableName = "Pods_The_SpineApp.framework"
-            BlueprintName = "Pods-The SpineApp"
+            BlueprintIdentifier = "8B21586E5557CB5B44AB5347AAAF09DD"
+            BuildableName = "Pods_The_SpineApple.framework"
+            BlueprintName = "Pods-The SpineApple"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

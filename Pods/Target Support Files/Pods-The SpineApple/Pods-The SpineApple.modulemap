@@ -1,0 +1,6 @@
+framework module Pods_The_SpineApple {
+  umbrella header "Pods-The SpineApple-umbrella.h"
+
+  export *
+  module * { export * }
+}
