@@ -21,6 +21,7 @@
 		41BE64A021FC764500E35EC0 /* backgroundImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41BE649E21FC764500E35EC0 /* backgroundImage.jpg */; };
 		41BE64A121FC764500E35EC0 /* errorSplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41BE649F21FC764500E35EC0 /* errorSplash.jpg */; };
 		41BE64A321FC76FE00E35EC0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE64A221FC76FE00E35EC0 /* NetworkManager.swift */; };
+		41E1A8982212CB30001C9528 /* WKWebViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E1A8972212CB30001C9528 /* WKWebViewHelpers.swift */; };
 		6ACBB1F464AE38488E372DC3 /* Pods_The_SpineApple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E6CC9473FB89588ED7848E /* Pods_The_SpineApple.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		41BE649E21FC764500E35EC0 /* backgroundImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundImage.jpg; sourceTree = "<group>"; };
 		41BE649F21FC764500E35EC0 /* errorSplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = errorSplash.jpg; sourceTree = "<group>"; };
 		41BE64A221FC76FE00E35EC0 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		41E1A8972212CB30001C9528 /* WKWebViewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewHelpers.swift; sourceTree = "<group>"; };
 		78B4DC6D928C6D53557D82E6 /* Pods-The SpineApple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The SpineApple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The SpineApple/Pods-The SpineApple.debug.xcconfig"; sourceTree = "<group>"; };
 		7DD58898F2E295EBD6CF0E27 /* Pods-The SpineApple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The SpineApple.release.xcconfig"; path = "Pods/Target Support Files/Pods-The SpineApple/Pods-The SpineApple.release.xcconfig"; sourceTree = "<group>"; };
 		B8F715CCB9C46A83EC71DD93 /* Pods_The_SpineApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_SpineApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +98,7 @@
 				41544E422205D2DA0094FFB7 /* TabBarController.swift */,
 				41BE64A221FC76FE00E35EC0 /* NetworkManager.swift */,
 				4147C75C21FC9E6800E92B14 /* LocalServer.swift */,
+				41E1A8972212CB30001C9528 /* WKWebViewHelpers.swift */,
 				41544E442205D2E20094FFB7 /* Views */,
 				41BE648B21FC6E7C00E35EC0 /* Main.storyboard */,
 				41BE648E21FC6E7F00E35EC0 /* Assets.xcassets */,
@@ -267,6 +270,7 @@
 				41544E432205D2DA0094FFB7 /* TabBarController.swift in Sources */,
 				41BE64A321FC76FE00E35EC0 /* NetworkManager.swift in Sources */,
 				41BE648821FC6E7C00E35EC0 /* AppDelegate.swift in Sources */,
+				41E1A8982212CB30001C9528 /* WKWebViewHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

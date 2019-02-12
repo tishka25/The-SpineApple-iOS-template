@@ -13,7 +13,7 @@ import Swifter
 
 
 
-class MainViewController: UIViewController , WKNavigationDelegate {
+class MainViewController: UIViewController , WKNavigationDelegate , WKUIDelegate{
 
     @IBOutlet weak var webView: WKWebView!
     var spinner: UIView!
@@ -25,8 +25,8 @@ class MainViewController: UIViewController , WKNavigationDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
-        self.initialURL = LocalServer.offlineURL
-        self.loadWebView(url: self.initialURL!)
+        self.initialURL = LocalServer.onlineURL
+        WKWebViewHelpers.loadWebView(url: self.initialURL! , webView: webView , delegate: self)
         
         
     }
@@ -52,6 +52,12 @@ class MainViewController: UIViewController , WKNavigationDelegate {
         self.webView.scrollView.delegate = self
         //
         
+        //
+        self.webView.uiDelegate = self
+        //
+        
+        
+        
         
         //Start the spiner animation
         spinner = UIViewController.displaySpinner(onView: self.view)
@@ -62,17 +68,29 @@ class MainViewController: UIViewController , WKNavigationDelegate {
         self.setNeedsStatusBarAppearanceUpdate()
         
         //Change the status bar color to math the web app
-        setStatusBarBackgroundColor(color: UIColor.init(red:7/255, green:55/255, blue:99/255,alpha:1))
+        WKWebViewHelpers.setStatusBarBackgroundColor(color: UIColor.init(red:7/255, green:55/255, blue:99/255,alpha:1))
     
     }
     
-    
+    //Callback function called when the WebView has finished loading
     func webView(_ webView: WKWebView,
                  didFinish navigation: WKNavigation!) {
         //Remove the spiner after loading the page
         UIViewController.removeSpinner(spinner: spinner)
         LocalServer.sendUUID()
         
+    }
+    //
+    
+    func webView(_ webView: WKWebView, createWebViewWith configuration: WKWebViewConfiguration, for navigationAction: WKNavigationAction, windowFeatures: WKWindowFeatures) -> WKWebView? {
+        if navigationAction.targetFrame == nil {
+//            webView.load(navigationAction.request)
+            let url = navigationAction.request.url
+            print("Opening browser: " , url!)
+            let svc = SFSafariViewController(url: url!)
+            present(svc, animated: true, completion: nil)
+        }
+        return nil
     }
     
     //Function to check redirects and loads
@@ -85,22 +103,24 @@ class MainViewController: UIViewController , WKNavigationDelegate {
             present(svc, animated: true, completion: nil)
             webView.goBack()
         }
+        webView.sizeToFit()
     }
     //
 
     
     
     
-    private func loadWebView(url:URL){
-        let myRequest = URLRequest(url: url)
-        webView.navigationDelegate = self
-        webView.scrollView.bounces = false;
-        webView.load(myRequest)
-    }
-    private func setStatusBarBackgroundColor(color: UIColor) {
-        guard let statusBar = UIApplication.shared.value(forKeyPath: "statusBarWindow.statusBar") as? UIView else { return }
-        statusBar.backgroundColor = color
-    }
+//    private func loadWebView(url:URL){
+//        let myRequest = URLRequest(url: url)
+//        webView.navigationDelegate = self
+//        webView.scrollView.bounces = false;
+//        webView.load(myRequest)
+//    }
+//    private func setStatusBarBackgroundColor(color: UIColor) {
+//        guard let statusBar = UIApplication.shared.value(forKeyPath: "statusBarWindow.statusBar") as? UIView else { return }
+//        statusBar.backgroundColor = color
+//    }
+    
 
 }
 
@@ -157,7 +177,8 @@ extension UIViewController {
 
 extension MainViewController: UIScrollViewDelegate {
     func scrollViewWillBeginZooming(_ scrollView: UIScrollView, with view: UIView?) {
-        scrollView.pinchGestureRecognizer?.isEnabled = false
+        scrollView.pinchGestureRecognizer?.isEnabled = true
+        
     }
     func viewForZooming(in scrollView: UIScrollView) -> UIView? {
         return nil
